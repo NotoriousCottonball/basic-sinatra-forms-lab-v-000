@@ -5,7 +5,7 @@
   <title>Basketball Team</title>
  </head>
  <body>
-  <%params.each do |k, v|%> 
+  <%params.to_a.each do |k, v|%> 
     
       <h2><%="#{k}: #{v}"%></h2>
    
