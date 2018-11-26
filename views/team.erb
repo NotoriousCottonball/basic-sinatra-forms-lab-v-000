@@ -6,13 +6,9 @@
  </head>
  <body>
     <% params.each |k, v| do %> 
-      if 
-   <h2><%= "#{k}:" %></h2>
-   <h2>Point Guard: <%="#{params[:pg]}"%></h2>
-   <h2>Shooting Guard: <%="#{params[:sg]}"%></h2>
-   <h2>Small Forward: <%="#{params[:sf]}"%></h2>
-   <h2>Power Forward: <%="#{params[:pf]}"%></h2>
-   <h2>Center: <%="#{params[:c]}"%></h2>
+     
+   <h2><%= "#{k}: #{v}" %></h2>
+   
 
 
  </body>
