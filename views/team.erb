@@ -5,9 +5,9 @@
   <title>Basketball Team</title>
  </head>
  <body>
-    <% params.each |k, v| do 
+    <% params.each |k, v| do %> 
       if 
-   <h2>Coach: <%="#{params[:coach]}"%></h2>
+   <h2><%= "#{k}:" %></h2>
    <h2>Point Guard: <%="#{params[:pg]}"%></h2>
    <h2>Shooting Guard: <%="#{params[:sg]}"%></h2>
    <h2>Small Forward: <%="#{params[:sf]}"%></h2>
