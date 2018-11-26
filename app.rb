@@ -2,6 +2,7 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
   get '/newteam/:name' do
+    raise params.inspect
     erb :newteam
   end
   
