@@ -7,8 +7,7 @@
  <body>
   <%params.to_a.each do |entry|%> 
       
-      <h<%=entry.first? ? 1 : 2%>>
-      "#{entry[0]}: #{entry[1]}"%>
+      <h"<%=entry.first? ? 1 : 2%>"><%="#{entry[0]}: #{entry[1]}"%>
    
    <%end%>
 
